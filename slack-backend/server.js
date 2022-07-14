@@ -24,7 +24,7 @@ app.use(express.json())
 //dbi config
 const mongoURI ='mongodb+srv://admin:jjsHE7oQdjNuZ5rU@cluster0.gk7rp.mongodb.net/?retryWrites=true&w=majority'
 mongoose.connect(mongoURI,{
-    useCreateIndex: true,
+    //useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
